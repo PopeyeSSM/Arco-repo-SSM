@@ -1,0 +1,23 @@
+ 
+export EDITOR='micro'
+
+# PERSONAL ADDED ALIAS'S
+
+# GENERAL ALIAS'S
+alias -- mbl='sudo micro /etc/bashrc.local'
+alias -- ct='clear'
+alias -- cm='cmatrix'
+alias -- nf='neofetch'
+# alias -- upd='sudo nix-channel --update && sudo nixos-rebuild switch'
+alias -- l.='exa -a | egrep "^\."'
+alias -- ..='cd ..'
+alias -- ssn='sudo shutdown now'
+alias -- sr='sudo reboot'
+alias -- rb='reboot'
+alias -- mc='micro'
+alias -- jfs='journalctl -u fstrim'
+alias -- slt='systemctl list-timers'
+alias -- srg='sudo rm -rf ~/.local/share/Trash/files'
+
+alias -- c50='nmcli device wifi connect CLARO-5_SSM password 954afD6a2E'
+alias -- c24='nmcli device wifi connect CLARO-2.4_SSM password 954afD6a2E'
